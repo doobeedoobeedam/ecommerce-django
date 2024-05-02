@@ -1,0 +1,8 @@
+<h2>Produk dengan label {{ label }}</h2>
+{% for item in produk %}
+    <div>
+        <h3>{{ item.nama_produk }}</h3>
+        <p>Harga: ${{ item.harga }}</p>
+        <!-- tambahkan detail lainnya sesuai kebutuhan -->
+    </div>
+{% endfor %}
